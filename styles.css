@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #60a780;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 50px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto;
+    margin-right: 20px; /* Espacio entre el logo y los enlaces */
+}
+
+nav a {
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: white; /* Cambiar color del texto del enlace */
+    margin-right: 15px; /* Espacio entre los enlaces */
+}
+
+section {
+    background-color: #e0e2da;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 84vh; /* Ajusta la altura según sea necesario */
+}
+
+
+
+section img {
+    width: 300px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto;
+    margin-left: 20px; /* Espacio entre la imagen y el texto */
+}
+
+section p {
+    text-align: center;
+    max-width: 400px; /* Ajusta el ancho máximo del texto según sea necesario */
+}
+
+ /* Estilos para el botón */
+ button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+ }
+
+
+
+/* Estilos adicionales al pasar el ratón sobre el botón */
+button:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el ratón */
+}
+
+footer{
+ background-color: #f2f2f2; 
+text-align: center; 
+padding: 10px;
+
+}
